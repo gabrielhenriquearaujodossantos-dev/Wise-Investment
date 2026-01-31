@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos/css.css">
+    <link rel="icon" href="imagens/logo.wise.png">
+    <script src="scripts/infos.js"></script>
+    <script src="scripts/jscript.js"></script>
+    <title>Wise Investment</title>
+</head>
+<body>
+
+    <header>
+            <div class="logo-area"> 
+            <img src="imagens/logo.wise.png" alt="Logo Wise Investment" class="header-logo">
+            <span class="notranslate" translate="no">Wise Investment</span>
+        </div>
+        <nav>
+            <a href="index.html">10 Investimentos</a>
+            <a href="perfil.html">Teste de Perfil</a>
+            <a href="simulacoes.html">Simulações</a>
+            <a href="conteudo_gratuito.html">Notícias</a> 
+            <a href="venda.html" class="cta_link_header">Curso Completo</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            
+            <div id="intro_perfil">
+                <h2>Onde Você se Encaixa? Descubra Seu Perfil de Investidor</h2>
+                
+                <p>
+                    O primeiro passo para a riqueza é o <strong>autoconhecimento financeiro</strong>. Entender se você é conservador, moderado ou arrojado evita perdas desnecessárias e maximiza seus ganhos.
+                </p>
+                <p>
+                    Responda a estas 10 perguntas estratégicas e receba um relatório GRATUITO sobre os ativos que mais combinam com você.
+                </p>
+            </div>
+            
+            <form id="form_perfil" class="grid_perguntas">
+
+                <div class="pergunta_card">
+                    <h3>1. Como você se sente com a ideia de ver seu investimento cair 20% em um mês?</h3>
+                    <p></p>
+                    <label><input type="radio" name="p1" value="C" required> Entraria em pânico e venderia imediatamente para evitar perdas maiores.</label>
+                    <p></p>
+                    <label><input type="radio" name="p1" value="M"> Manteria a calma, mas não faria novos aportes até que o mercado se estabilize.</label>
+                    <p></p>
+                    <label><input type="radio" name="p1" value="A"> Visto como uma oportunidade, faria aportes adicionais, aproveitando o "preço baixo".</label>
+                </div>
+
+                <div class="pergunta_card">
+                    <h3>2. Qual o seu principal objetivo financeiro ao começar a investir?</h3>
+                    <p></p>
+                    <label><input type="radio" name="p2" value="C" required> Preservar o capital e garantir que o dinheiro não perca para a inflação.</label>
+                    <p></p>
+                    <label><input type="radio" name="p2" value="M"> Obter um retorno acima da média do mercado, aceitando algum risco.</label>
+                    <p></p>
+                    <label><input type="radio" name="p2" value="A"> Multiplicar o capital rapidamente, focando na alta rentabilidade no longo prazo.</label>
+                </div>
+
+                <div class="pergunta_card">
+                    <h3>3. Você prefere um retorno de 6% garantido anualmente ou a chance de ganhar 20% (mas podendo perder 10%)?</h3>
+                    <p></p>
+                    <label><input type="radio" name="p3" value="C" required> O retorno de 6% garantido, pois a certeza é mais importante.</label>
+                    <p></p>
+                    <label><input type="radio" name="p3" value="M"> Oportunidade de 20%, mas só investiria uma pequena parte do capital nela.</label>
+                    <p></p>
+                    <label><input type="radio" name="p3" value="A"> A chance de 20%, investindo o máximo que o meu limite de risco permitir.</label>
+                </div>
+
+                <div class="pergunta_card">
+                    <h3>4. Se você tivesse R$ 10.000, quanto você colocaria em ativos de alta volatilidade (Criptomoedas ou Day Trade)?</h3>
+                    <p></p>
+                    <label><input type="radio" name="p4" value="C" required> Nada. Risco muito alto, prefiro evitar totalmente.</label>
+                    <p></p>
+                    <label><input type="radio" name="p4" value="M"> Até R$ 2.000 (20%), pois é o que posso perder sem me preocupar.</label>
+                    <p></p>
+                    <label><input type="radio" name="p4" value="A"> R$ 5.000 ou mais (50%+), pois o potencial de ganho justifica o risco.</label>
+                </div>
+
+                <div class="pergunta_card">
+                    <h3>5. Você se sentiria confortável investindo em um Fundo de Ações desconhecido, mas com alto histórico de retorno?</h3>
+                    <p></p>
+                    <label><input type="radio" name="p5" value="C" required> Não. Investiria apenas se fosse lastreado em Renda Fixa ou garantido pelo FGC.</label>
+                    <p></p>
+                    <label><input type="radio" name="p5" value="M"> Sim, mas faria uma pesquisa detalhada sobre o gestor e a tese de investimento antes.</label>
+                    <p></p>
+                    <label><input type="radio" name="p5" value="A"> Sim. Retornos passados importam, e se a oportunidade é boa, deve ser aproveitada.</label>
+                </div>
+
+                <div class="pergunta_card">
+                    <h3>6. Qual o seu horizonte de tempo para a maioria dos seus investimentos?</h3>
+                    <p></p>
+                    <label><input type="radio" name="p6" value="C" required> Curto prazo (até 2 anos), preciso de liquidez imediata.</label>
+                    <p></p>
+                    <label><input type="radio" name="p6" value="M"> Médio prazo (3 a 5 anos), pensando em metas como trocar de carro ou entrada de imóvel.</label>
+                    <p></p>
+                    <label><input type="radio" name="p6" value="A"> Longo prazo (mais de 7 anos), com foco na aposentadoria e herança.</label>
+                </div>
+
+                <div class="pergunta_card">
+                    <h3>7. O que é mais atraente em um investimento?</h3>
+                    <p></p>
+                    <label><input type="radio" name="p7" value="C" required> A garantia do Fundo Garantidor de Crédito (FGC).</label>
+                    <p></p>
+                    <label><input type="radio" name="p7" value="M"> O dividendo (Renda Passiva) que ele paga mensalmente.</label>
+                    <p></p>
+                    <label><input type="radio" name="p7" value="A"> A valorização percentual da cota, independentemente se paga dividendos.</label>
+                </div>
+
+                <div class="pergunta_card">
+                    <h3>8. O que você faria ao ver uma notícia negativa sobre uma empresa que você tem ações?</h3>
+                    <p></p>
+                    <label><input type="radio" name="p8" value="C" required> Venderia imediatamente, pois o medo de perda é maior que o potencial de ganho.</label>
+                    <p></p>
+                    <label><input type="radio" name="p8" value="M"> Analisaria o impacto real no longo prazo da empresa. Se for pequeno, mantenho.</label>
+                    <p></p>
+                    <label><input type="radio" name="p8" value="A"> Se a notícia for exagerada, consideraria comprar mais, pois a ação deve estar barata.</label>
+                </div>
+                
+                <div class="pergunta_card">
+                    <h3>9. Qual o nível de complexidade que você aceita em um investimento?</h3>
+                    <p></p>
+                    <label><input type="radio" name="p9" value="C" required> Deve ser simples o suficiente para eu explicar para minha avó.</label>
+                    <p></p>
+                    <label><input type="radio" name="p9" value="M"> Médio. Aceito estudar para entender Fundos, FIIs e ETFs.</label>
+                    <p></p>
+                    <label><input type="radio" name="p9" value="A"> Alto. Gosto de estudar derivativos, opções e mercados futuristas.</label>
+                </div>
+
+                <div class="pergunta_card">
+                    <h3>10. Qual tipo de renda passiva te atrai mais?</h3>
+                    <p></p>
+                    <label><input type="radio" name="p10" value="C" required> Tesouro Selic, pois é a mais segura, mesmo que o retorno seja menor e não isento de IR.</label>
+                    <p></p>
+                    <label><input type="radio" name="p10" value="M"> Fundos Imobiliários (FIIs), pois é isenta de IR e paga aluguel todo mês, apesar de pequenas oscilações.</label>
+                    <p></p>
+                    <label><input type="radio" name="p10" value="A"> A que vem dos dividendos de ações de crescimento, que podem ser irregulares, mas com potencial de valorização do capital de 5x ou mais.</label>
+                </div>
+                <hr>
+                <div id="email_coleta" class="pergunta_card">
+                    <h3>Agora, para enviarmos seu relatório completo e personalizado:</h3>
+                    <input type="text" id="nome" placeholder="Seu Nome Completo" required>
+                    <input type="email" id="email" placeholder="Seu Melhor E-mail" required>
+                    <button type="submit" id="btn_enviar_perfil" class="cta_botao">Descobrir Meu Perfil AGORA</button>
+                </div>
+            </form>
+
+            <div id="resultado_perfil" style="display: none;">
+                </div>
+        </div>
+    </main>
+</body>
+</html>
